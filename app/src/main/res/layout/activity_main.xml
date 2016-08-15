@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context="com.github.abdalimran.androidspeechrecognition.MainActivity">
+
+    <TextView
+        android:id="@+id/recognitionView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recognized speech will be here.."
+        android:lines="10"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <Button
+        android:id="@+id/SpeakNow"
+        android:onClick="SpeakNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tap to Speak"
+        android:textAllCaps="false"/>
+</LinearLayout>
